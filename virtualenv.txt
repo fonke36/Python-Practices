@@ -1,0 +1,52 @@
+Virtual environment is a isolated environment form other python environments
+
+> It is helpfull for working on different kind of projects
+
+
+
+How to create a virtual environment:
+______________________________________________________________________________________________________
+
+    - install the package 'virtualenv'                  => pip install virtualenv
+    - create an environment using 'virtualenv'          => virtualenv <environment name>
+    - activate your environment                         => .\ <your environment name> \Scripts\activate.ps1
+
+""" In terminal your environment name will show before your project folder address """
+
+eg. ---------------------------------------------------------------------------------------------------
+    Before activateing
+        PS C:\Users\KEPLER\Desktop\Agentic Ai\Practical Learning\Pyhon-Practices>
+
+    After activateing:
+        (V-env-PyPractices) PS C:\Users\KEPLER\Desktop\Agentic Ai\Practical Learning\Pyhon-Practices>
+
+-------------------------------------------------------------------------------------------------------
+
+    - use 'deactivate' to exit your virtual environment =>  deactivate
+
+______________________________________________________________________________________________________
+
+
+Pro tip:
+    always use 'requirments.txt' file to manage (keep record of) your libraries within the environment.
+
+    - to get list of all libraries install in the virtual environment   => pip freeze
+    - to write list of all libraries in 'requirments.txt' file          => pip freeze > requirments.txt
+
+Why this is useful ------------------------------------------------------------------------------------
+
+> share the 'requirments.txt' file to install all the dependencies while sharing your project
+> if any problem in virtual environment install all required libraries at once
+> to keep the record of all the libraries used in the project
+
+    - to install all libraries from 'requirments.txt' at once           => pip install -r requirments.txt
+
+______________________________________________________________________________________________________
+
+
+How to rename virtual environment:--------------------------------------------------------------------
+
+> renaming virtual environment is not a good idea.
+> can rase errors in your code
+> best way to do this -> 'deactivate' environment -> create new environment with new name
+-> install all dependencies form 'requirments.txt' file

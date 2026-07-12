@@ -1,0 +1,8 @@
+1. What is Dictionary Literal?
+    जब आप कोड में {} (घुंघराले कोष्ठक) का उपयोग करके उसके अंदर key: value की  जोड़ी लिखते हैं, तो उसे ही 'Dictionary Literal' कहा जाता है।
+    
+    # यह एक dictionary literal है
+    my_order = {"size": "Large", "crust": "Thin", "topping": "Paneer"}
+
+What is Keyword Arguments?
+

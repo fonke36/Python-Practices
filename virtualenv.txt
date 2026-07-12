@@ -10,6 +10,14 @@ ________________________________________________________________________________
     - install the package 'virtualenv'                  => pip install virtualenv
     - create an environment using 'virtualenv'          => virtualenv <environment name>
     - activate your environment                         => .\ <your environment name> \Scripts\activate.ps1
+    
+    ''' if this activate command don't work '''
+    ____________________________________________
+    - press Ctl + Shift + P > type Python: Select Intrpreter > hit enter
+    - now navigate to your virtual environment (showin your virtual environment name in the list)
+    - click on your virtual environment
+    - a command will exicute in you terminal and done
+
 
 """ In terminal your environment name will show before your project folder address """
 
